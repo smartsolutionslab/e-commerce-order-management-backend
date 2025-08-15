@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.OrderManagement.Domain", "src\E-Commerce.OrderManagement.Domain\E-Commerce.OrderManagement.Domain.csproj", "{G1H2I3J4-K5L6-7890-MNOP-123456789GHI}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.OrderManagement.Application", "src\E-Commerce.OrderManagement.Application\E-Commerce.OrderManagement.Application.csproj", "{H2I3J4K5-L6M7-8901-NOPQ-234567890HIJ}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.OrderManagement.Infrastructure", "src\E-Commerce.OrderManagement.Infrastructure\E-Commerce.OrderManagement.Infrastructure.csproj", "{I3J4K5L6-M7N8-9012-OPQR-345678901IJK}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.OrderManagement.Api", "src\E-Commerce.OrderManagement.Api\E-Commerce.OrderManagement.Api.csproj", "{J4K5L6M7-N8O9-0123-PQRS-456789012JKL}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{G1H2I3J4-K5L6-7890-MNOP-123456789GHI}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{G1H2I3J4-K5L6-7890-MNOP-123456789GHI}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{G1H2I3J4-K5L6-7890-MNOP-123456789GHI}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{G1H2I3J4-K5L6-7890-MNOP-123456789GHI}.Release|Any CPU.Build.0 = Release|Any CPU
+		{H2I3J4K5-L6M7-8901-NOPQ-234567890HIJ}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{H2I3J4K5-L6M7-8901-NOPQ-234567890HIJ}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{H2I3J4K5-L6M7-8901-NOPQ-234567890HIJ}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{H2I3J4K5-L6M7-8901-NOPQ-234567890HIJ}.Release|Any CPU.Build.0 = Release|Any CPU
+		{I3J4K5L6-M7N8-9012-OPQR-345678901IJK}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{I3J4K5L6-M7N8-9012-OPQR-345678901IJK}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{I3J4K5L6-M7N8-9012-OPQR-345678901IJK}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{I3J4K5L6-M7N8-9012-OPQR-345678901IJK}.Release|Any CPU.Build.0 = Release|Any CPU
+		{J4K5L6M7-N8O9-0123-PQRS-456789012JKL}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{J4K5L6M7-N8O9-0123-PQRS-456789012JKL}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{J4K5L6M7-N8O9-0123-PQRS-456789012JKL}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{J4K5L6M7-N8O9-0123-PQRS-456789012JKL}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>e-commerce-order-management</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="E-Commerce.Common.Api" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0" />
+    <PackageReference Include="Asp.Versioning.Http" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-Commerce.OrderManagement.Application\E-Commerce.OrderManagement.Application.csproj" />
+    <ProjectReference Include="..\E-Commerce.OrderManagement.Infrastructure\E-Commerce.OrderManagement.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
